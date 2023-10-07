@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Auto UWP
+// @name         UWP for the Roblox website
 // @version      1.0
 // @description  Launch the UWP version of Roblox instead of the web version
 // @author       Depso
