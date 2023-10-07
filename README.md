@@ -1,4 +1,4 @@
-# Roblox Auto UWP
+# Roblox UWP for the Roblox website
 This extension stops the Web version of Roblox launching and instead launches the UWP version on the Roblox website.<br/>
 This extension supports: joining friends, private servers, public servers, .... 
 
