@@ -1,3 +1,10 @@
+// Created by depso 😼
+// This plugin allows UWP to be launched from the Roblox website
+
+// [🎇] Please install TamperMonkey in-order to run this extension
+// https://www.tampermonkey.net/
+
+
 // ==UserScript==
 // @name         UWP for the Roblox website
 // @version      1.0
@@ -7,9 +14,15 @@
 // @match        https://roblox.com/*
 // @icon         https://cdn.discordapp.com/avatars/1085827557410209832/a73faa8fc4865cbb14a5bb72f95d5e3d.webp?size=80
 // @run-at       document-start
+// @license      MIT
 // ==/UserScript==
 
 const Protocall = "roblox://experiences/start";
+
+// roblox-player:// - Web protocall
+// roblox:// - UWP protocall
+// robloxmobile:// - Mobile protocall
+
 
 const FollowUserToExperience = function(userId) {
   window.location.href = `${Protocall}?userId=${userId}`;
